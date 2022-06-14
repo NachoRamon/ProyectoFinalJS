@@ -1,0 +1,26 @@
+.texto{
+    font-size: 20px;
+
+}
+
+.titulos{
+    margin-left: 45%;
+}
+
+.carta{
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+.padding{
+    padding: 5px 5px 5px 5px;
+}
+
+.altura{
+    height: 950px;
+    width: 99%;
+}
+
+.boton{
+    margin: 10px;
+}

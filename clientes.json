@@ -1,0 +1,34 @@
+[
+    {
+        "id":1 ,
+        "nombre": "Ignacio", 
+        "apellido": "Ramon",
+        "dni":"42249095",
+        "contrasena": "123456",
+        "saldo":"10000"
+    },
+    {
+        "id":2,
+        "nombre": "Jorge", 
+        "apellido": "Perez",
+        "dni":"41142456",
+        "contrasena": "qwerty",
+        "saldo":"5000"
+    },
+    {
+        "id":3,
+        "nombre": "Pedro", 
+        "apellido": "Sanchez",
+        "dni":"42132978",
+        "contrasena": "asdfgh",
+        "saldo":"15000"
+    },
+    {
+        "id":4,
+        "nombre": "Juan", 
+        "apellido": "Perez",
+        "dni":"42566780",
+        "contrasena": "67890",
+        "saldo":"12000"
+    }
+]

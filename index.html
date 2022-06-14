@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://bootswatch.com/5/vapor/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="login" class="">
+        <fieldset class="altura">
+          <legend>Ingrese su DNI y contraseña</legend>
+            <div class="form-group row">
+                <label for="exampleInputUsername1" class="form-label mt-4">Ingrese su DNI</label>
+                <input type="text" class="form-control" id="user" name="user">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+                <input type="password" class="form-control" id="userPassword" placeholder="Password" name="userPassword">
+            </div>
+            <div>
+                <button class="btn btn-link boton">Iniciar Sesion</button>
+            </div>
+            <div class="modal-footer">
+                <a href="formulario.html">Si no esta registrado da click aqui para Registrarse</a>
+            </div>
+            <div style="width: 18rem;" id="divUsuario"></div>
+        </fieldset>
+    </form>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
